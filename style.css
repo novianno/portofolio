@@ -1,0 +1,94 @@
+.title {
+
+	background-color: white;
+	color: black;
+	text-align: center;
+	font-family: helvetica;
+	font-size: 45px;
+	
+}
+
+
+
+a {
+
+	text-decoration: none;
+	color: white;
+
+
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   font-family: helvetica;
+   font-size: 15px;
+   text-align: center;
+}
+
+
+body {
+
+
+	background-color: black;
+}
+
+nav {
+
+	display: flex;
+	background-color: gray;
+	justify-content: center;
+
+
+
+}
+
+nav > div {
+
+
+	color: white;
+	background-color: white;
+	font-size: 36px;
+	font-family: helvetica;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 5%
+}
+
+nav > div > a:hover {
+
+	background-color: silver;
+	color: black;
+	cursor: pointer;
+	
+
+}
+
+
+.bungkus {
+
+display: grid;
+grid-template-columns: auto auto auto;
+grid-column-gap: 300px;
+background-color: black;
+padding: 10px;
+justify-content: center;
+color: white;
+text-align: center;
+
+}
+
+.bungkus > .front {
+
+
+
+	border:solid black;
+	justify-content: center;
+
+}
+
+
